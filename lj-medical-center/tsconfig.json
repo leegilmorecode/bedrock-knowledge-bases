@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": ["es2018", "DOM"],
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "esModuleInterop": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "typeRoots": ["./node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "@adapters/*": ["./stateless/src/adapters/*"],
+      "@config": ["./stateless/src/config/index"],
+      "@domain/*": ["./stateless/src/domain/*"],
+      "@errors/*": ["./stateless/src/errors/*"],
+      "@schemas/*": ["./stateless/src/schemas/*"],
+      "@shared/*": ["./stateless/src/shared/*"],
+      "@use-cases/*": ["./stateless/src/use-cases/*"]
+    }
+  },
+  "exclude": ["node_modules", "cdk.out"]
+}

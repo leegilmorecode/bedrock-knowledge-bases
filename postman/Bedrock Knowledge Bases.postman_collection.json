@@ -1,0 +1,39 @@
+{
+  "info": {
+    "_postman_id": "43b18e62-0276-4433-8e3b-d9d4a844430c",
+    "name": "Bedrock Knowledge Bases",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "752706"
+  },
+  "item": [
+    {
+      "name": "POST Query",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"query\": \"How can complaints be received?\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://your-rest-id.execute-api.us-east-1.amazonaws.com/prod/queries/",
+          "protocol": "https",
+          "host": [
+            "your-rest-id",
+            "execute-api",
+            "us-east-1",
+            "amazonaws",
+            "com"
+          ],
+          "path": ["prod", "queries", ""]
+        }
+      },
+      "response": []
+    }
+  ]
+}
