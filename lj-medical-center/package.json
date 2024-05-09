@@ -29,7 +29,7 @@
     "@aws-lambda-powertools/tracer": "^1.18.0",
     "@aws-sdk/client-bedrock-agent": "^3.515.0",
     "@aws-sdk/client-bedrock-agent-runtime": "^3.515.0",
-    "@cdklabs/generative-ai-cdk-constructs": "^0.1.59",
+    "@cdklabs/generative-ai-cdk-constructs": "^0.1.140",
     "@middy/core": "^5.2.4",
     "ajv": "^8.12.0",
     "ajv-formats": "^2.1.1",
